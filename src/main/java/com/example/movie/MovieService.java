@@ -67,10 +67,10 @@ public class MovieService implements MovieRepository {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
 
-        if (existingMovie.getMovieName() != null) {
+        if (movie.getMovieName() != null) {
             existingMovie.setMovieName(movie.getMovieName());
         }
-        if (existingMovie.getLeadActor() != null) {
+        if (movie.getLeadActor() != null) {
             existingMovie.setLeadActor(movie.getLeadActor());
         }
 
