@@ -1,7 +1,7 @@
 Given four files `MovieController.java`, `MovieRepository.java`, `MovieService.java` and  `Movie.java`.
 The `MovieService` class has a variable named `movieList`, which is a HashMap that holds `Integer`s as keys and `Movie` objects as values. Initially, it contains data of **5** movies.
 
-### Completion Instructions
+### Instructions
 
 - `Movie.java`: `Movie` class should contain the following attributes.
 
